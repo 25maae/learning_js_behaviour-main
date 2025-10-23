@@ -3,7 +3,7 @@
 const getLionBtn = document.getElementById("lion");
 const getDogBtn = document.getElementById("dog");
 const getElephantBtn = document.getElementById("elephant");
-const getMonkeyBtn= document.getElementById("monkey");
+const getMonkeyBtn = document.getElementById("monkey");
 
 const soundLion = new Audio();
 soundLion.src = "../sound/lion.wav";
@@ -18,17 +18,17 @@ const soundMonkey = new Audio();
 soundMonkey.src = "../sound/monkey.wav";
 
 getLionBtn.addEventListener("click", () => {
-    soundLion.play();
+  soundLion.play();
 });
 
 getDogBtn.addEventListener("click", () => {
-    soundDog.play();
+  soundDog.play();
 });
 
 getElephantBtn.addEventListener("click", () => {
-    soundElephant.play();
+  soundElephant.play();
 });
 
 getMonkeyBtn.addEventListener("click", () => {
-    soundMonkey.play();
+  soundMonkey.play();
 });
