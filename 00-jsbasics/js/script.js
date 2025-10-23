@@ -34,3 +34,10 @@ function greetings() {
   console.log("Hej med dig!"); // Viser en hilsen i konsollen //
 }
 greetings(); // Kalder funktionen greetings //
+
+function addNumbers(x, y) {
+  const sum = x + y; // Laver summen af x og y //
+  return sum; // Returnerer summen //
+}
+const result = addNumbers(1, 2); // Kalder funktionen addNumbers med argumenterne 1 og 2 //
+console.log(result); // Viser resultatet i konsollen //
