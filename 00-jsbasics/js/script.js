@@ -1,0 +1,32 @@
+"use strict";
+
+// Måder at vise tekst på //
+document.write("Hello World!"); // Skriver tekst direkte på siden //
+alert("Hello World!"); // Viser en popup-boks //
+console.log("Hello World!"); // Viser tekst i browserens konsol //
+
+// Variabler //
+const pi = 3.14; // Konstant variabel, kan ikke ændres //
+let age = 21; // Variabel, kan ændres //
+let FirstName = "Simon"; // String variabel //
+let firstName = "Mathilde";
+let SimonAge = 21; // Numerisk variabel //
+let mathildeAge = 99;
+
+console.log(`jeg hedder ${FirstName} og jeg er ${SimonAge} år`); // Jeg hedder Simon og jeg er 21 år
+console.log(`jeg hedder ${firstName} og jeg er ${mathildeAge} år`); // Jeg hedder Mathilde og jeg er 99 år
+
+// Navngivningskonventioner //
+// let firstName = "John"; // (CamelCase) //
+// let FirstName = "Jane"; // (PascalCase) //
+// let first_name = "Doe"; // (snake_case) //
+
+// Ændring af variabler //
+age = 22; // Ændrer værdien af variablen age //
+age += 1; // Øger værdien af age med 1 //
+age -= 1; // Mindsker værdien af age med 1 //
+age *= 2; // Ganger værdien af age med 2 //
+age /= 2; // Dividerer værdien af age med 2 //
+age %= 5; // Sætter age til resten af age divideret med 5 //
+age++; // Øger værdien af age med 1 //
+age--; // Mindsker værdien af age med 1 //
