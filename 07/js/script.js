@@ -1,12 +1,10 @@
 "use strict";
 
-
 // const getWordElem = document.getElementById("word");
 
 // getWordElem.addEventListener("click", function() {
 //     this.innerHTML = "<strong>BILKA!</strong>"
 // });
-
 
 // const getWordElem = document.getElementById("word");
 
@@ -20,15 +18,12 @@
 //      }
 // });
 
-
 const getWordElem = document.getElementById("word");
 
-getWordElem.addEventListener("click", function() {
-
-    if (this.textContent == "Det ta'r kun 5 minutter"){
-        this.innerHTML = "<strong>og så er du i Netto.</strong>";
-    }
-    else {
-        this.innerHTML = "Det ta'r kun 5 minutter";
-     }
+getWordElem.addEventListener("click", function () {
+  if (this.textContent == "Just Do It") {
+    this.innerHTML = "<strong>Nike</strong>";
+  } else {
+    this.innerHTML = "Just Do It";
+  }
 });
