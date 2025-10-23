@@ -1,6 +1,6 @@
 "use strict";
 
-const websiteBody = document.body;
+const websiteBody = document.body; // Henter body-elementet fra HTML-dokumentet //
 
-websiteBody.style = "background: yellow";
+websiteBody.style = "background: beige"; // Ændrer baggrundsfarven på body-elementet //
 

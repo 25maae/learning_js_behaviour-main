@@ -28,3 +28,9 @@ age /= 2; // Dividerer værdien af age med 2 //
 age %= 5; // Sætter age til resten af age divideret med 5 //
 age++; // Øger værdien af age med 1 //
 age--; // Mindsker værdien af age med 1 //
+
+// Funktioner //
+function greetings() {
+  console.log("Hej med dig!"); // Viser en hilsen i konsollen //
+}
+greetings(); // Kalder funktionen greetings //
