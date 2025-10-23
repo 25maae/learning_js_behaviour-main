@@ -13,3 +13,7 @@ nightColorBtn.addEventListener("click", () => {
 lightColorBtn.addEventListener("click", () => {
    body.style = "background: #FFFFFF"; 
 })
+
+niceColorBtn.addEventListener("click", () => {
+  body.style = "background: #ff00eeff";
+});
