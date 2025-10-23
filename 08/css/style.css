@@ -1,72 +1,66 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
 .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 #word {
-    margin-top: 4rem;
-    font-size: 3rem;
-    color: darkcyan
+  margin-top: 4rem;
+  font-size: 3rem;
+  color: darkcyan;
 }
-
-
-.bounce { animation: bounce 0.6s; }
-  @keyframes bounce {
-    0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}
-  }
-
-.shake {
-  animation: shake 0.4s;
-}
-
-@keyframes shake {
-  0%, 100% { transform: translateX(0); }
-  20%, 60% { transform: translateX(-8px); }
-  40%, 80% { transform: translateX(8px); }
-}
-
-.spin {
-  animation: spin 0.6s ease-in-out;
-}
-
-@keyframes spin {
-  0%   { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
 
 .fade {
   animation: fade 8s;
 }
 
 @keyframes fade {
-  0% { opacity: 0; transform: scale(0.9); }
-  50% { opacity: 1; transform: scale(1.05); }
-  100% { opacity: 1; transform: scale(1); }
-}
-
-@keyframes myAnimation {
-  0%   {background-color:red; left:0px; top:0px;}
-  25%  {background-color:yellow; left:200px; top:0px;}
-  50%  {background-color:blue; left:200px; top:200px;}
-  75%  {background-color:green; left:0px; top:200px;}
-  100% {background-color:red; left:0px; top:0px;}
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 div {
-  width: 100px;
-  height: 100px;
-  position: relative;
-  background-color: red;
-  animation-name: myAnimation;
-  animation-duration: 4s;
+  background: #2db34a;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 150px;
+  line-height: 95px;
+  text-align: center;
+  transition-property: border-radius;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  width: 150px;
+}
+
+div:hover {
+  border-radius: 50%;
+}
+
+div {
+  background: #2db34a;
+  height: 95px;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  width: 95px;
+}
+div:hover {
+  background: #ff7b29;
 }
