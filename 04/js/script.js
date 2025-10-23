@@ -29,7 +29,27 @@ substractBtn.addEventListener("click", () => {
 
 });
 
+const getNumber5Field = document.getElementById("number5");
+const getNumber6Field = document.getElementById("number6");
+const resultMultiplicationField = document.getElementById("resultMultiplication");
+const multiplyBtn = document.getElementById("multiplyNumbersBtn");
 
+multiplyBtn.addEventListener("click", () => {
+  const number5 = Number(getNumber5Field.value);
+  const number6 = Number(getNumber6Field.value);
+  const result = number5 * number6;
+  resultMultiplicationField.value = result;
+});
 
+const getNumber7Field = document.getElementById("number7");
+const getNumber8Field = document.getElementById("number8");
+const resultDivisionField = document.getElementById("resultDivision");
+const divideBtn = document.getElementById("divideNumbersBtn");
 
+divideBtn.addEventListener("click", () => {
+  const number7 = Number(getNumber7Field.value);
+  const number8 = Number(getNumber8Field.value);
+  const result = number7 / number8;
+  resultDivisionField.value = result;
+});
 
