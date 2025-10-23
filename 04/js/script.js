@@ -51,5 +51,9 @@ divideBtn.addEventListener("click", () => {
   const number8 = Number(getNumber8Field.value);
   const result = number7 / number8;
   resultDivisionField.value = result;
-});
 
+  // Hvis der divideres med 0, i en eller begge indput felter, skal der vises en fejl besked
+  if (getNumber7Field.value === "0" || getNumber8Field.value === "0") {
+    resultDivisionField.value = "Ikke muligt";
+  }
+});
